@@ -1,0 +1,117 @@
+body {
+    font-family: calabari, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: maroon;
+    color: yellow;
+}
+
+header {
+    background-color: yellow;
+    color: maroon;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: maroon;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+nav a {
+    margin: 0 10px;
+    color: maroon;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: yellow;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: yellow;
+    text-decoration: underline;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: yellow;
+    color: maroon;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.menu-item img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: 2px solid maroon;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+    background-color: yellow;
+    color: maroon;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form label, form input, form textarea, form button {
+    margin-bottom: 10px;
+    width: 94%;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 2px solid maroon;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: maroon;
+    color: yellow;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: yellow;
+    color: maroon;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: maroon;
+    color: yellow;
+    border-top: 2px solid yellow;
+    
+}
